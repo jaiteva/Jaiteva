@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E5DFD1;
+    color: #30261A;
+}
+
+header {
+    background-color: #FB852E;
+    color: #F2EEE2;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: #DDB999;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.container {
+    padding: 20px;
+}
+
+.menu-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    border: 1px solid #30261A;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #30261A;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+#cart-button {
+    background-color: #FB852E; /* Color de fondo */
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+#cart-button:hover {
+    background-color: #DDB999; /* Color al pasar el mouse */
+}
+.back-button {
+    margin: 20px; /* Espaciado alrededor del botón */
+    text-align: center; /* Centrar el botón */
+}
+.back-button button {
+    padding: 10px 20px;
+    background-color: #DDB999; /* Cambia según tu paleta */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
